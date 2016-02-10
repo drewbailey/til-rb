@@ -11,9 +11,10 @@ end
 readme = File.open('README.md', 'w+')
 readme.write("### Categories\n")
 subjects.each { |s| readme.write "- [#{s.capitalize}](##{s})\n"}
-readme.write("\n\n")
+readme.write("\n")
 
 sub_file_hash.each do |sub, files|
+  readme.write "\n"
   readme.write "--- \n"
   readme.write "### #{sub.capitalize}\n"
   files.each {|f| readme.write "- [#{pretty_file_name(f)}](#{sub}/#{f})\n"}
