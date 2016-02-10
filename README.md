@@ -1,5 +1,6 @@
 ### Categories
-* [Ruby](#ruby)
+- [Ruby](#ruby)
+
 --- 
 ### Ruby
 - [Parallel Bundle Install.md](ruby/parallel-bundle-install.md)
