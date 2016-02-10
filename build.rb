@@ -17,6 +17,7 @@ end
 readme = File.open('README.md', 'w+')
 readme.write("# TIL \n")
 readme.write("> Today I Learned \n")
+readme.write("\n")
 readme.write(header)
 readme.write("### Categories\n")
 subjects.each { |s| readme.write "- [#{s.capitalize}](##{s})\n"}
