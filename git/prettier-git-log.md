@@ -1,4 +1,6 @@
-### [Prettier Git Log](https://coderwall.com/p/euwpig/a-better-git-log)
+### Prettier Git Log
+
+[Prettier Git Log](https://coderwall.com/p/euwpig/a-better-git-log)
 
 ```
 git config --global alias.lg "log --color --graph
