@@ -1,6 +1,12 @@
 ### Categories
+- [Git](#git)
 - [Ruby](#ruby)
 
+--- 
+### Git
+- [Delete Local Branches That Have Been Merged.md](git/delete-local-branches-that-have-been-merged.md)
+- [List Git Aliases.md](git/list-git-aliases.md)
+- [Prettier Git Log.md](git/prettier-git-log.md)
 --- 
 ### Ruby
 - [Parallel Bundle Install.md](ruby/parallel-bundle-install.md)
