@@ -2,6 +2,12 @@ def pretty_file_name(name)
   name.gsub('-', ' ').split.map(&:capitalize).join(' ')
 end
 
+def header
+<<STRING
+[This Post](https://github.com/jbranchaud/til) motivated me to start keeping track of small technology related things I learn.\n
+STRING
+end
+
 subjects = Dir.glob('*').select { |f| File.directory? f }
 
 sub_file_hash = subjects.each_with_object({}) do |sub, hsh|
@@ -9,6 +15,9 @@ sub_file_hash = subjects.each_with_object({}) do |sub, hsh|
 end
 
 readme = File.open('README.md', 'w+')
+readme.write("# TIL \n")
+readme.write("> Today I Learned \n")
+readme.write(header)
 readme.write("### Categories\n")
 subjects.each { |s| readme.write "- [#{s.capitalize}](##{s})\n"}
 readme.write("\n")
