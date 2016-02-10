@@ -9,7 +9,7 @@ sub_file_hash = subjects.each_with_object({}) do |sub, hsh|
 end
 
 readme = File.open('README.md', 'w+')
-readme.write("### Categories\n\n\n\n")
+readme.write("### Categories\n")
 subjects.each { |s| readme.write "* [#{s.capitalize}](##{s})\n"}
 
 sub_file_hash.each do |sub, files|
