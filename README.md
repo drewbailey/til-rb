@@ -23,6 +23,7 @@
 --- 
 ### Rails
 - [Code Statistics For Rails App.md](rails/code-statistics-for-rails-app.md)
+- [Minitest Seed Option.md](rails/minitest-seed-option.md)
 
 --- 
 ### Ruby
