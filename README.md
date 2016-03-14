@@ -5,6 +5,7 @@
 
 ### Categories
 - [Git](#git)
+- [Osx](#osx)
 - [Rails](#rails)
 - [Ruby](#ruby)
 
@@ -14,6 +15,9 @@
 - [Delete Local Branches That Have Been Merged.md](git/delete-local-branches-that-have-been-merged.md)
 - [List Git Aliases.md](git/list-git-aliases.md)
 - [Prettier Git Log.md](git/prettier-git-log.md)
+
+--- 
+### Osx
 
 --- 
 ### Rails
